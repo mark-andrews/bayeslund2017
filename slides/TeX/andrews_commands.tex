@@ -1,0 +1,61 @@
+\usepackage{xspace}
+\newcommand{\noun}[1]{\textsc{#1}}
+\newcommand{\pvalue}{\textrm{p}-value\xspace}
+\newcommand{\h}{\texttt{H}}
+\renewcommand{\t}{\texttt{T}}
+\newcommand*{\Given}{\big\vert}
+\newcommand*{\given}{\vert}
+\newcommand{\PR}{\mathrm{P}}
+\newcommand{\PROB}[1]{\mathrm{P}\!\left( #1 \right)}
+\newcommand{\Prob}[1]{\mathrm{P}( #1 )}
+
+\newcommand{\studentt}[1]{t_{#1}}
+% i'm sure errors will occur as a result of the change
+
+\newcommand{\probp}{\mathrm{p}}
+
+\def\argmax{\mathop{\rm argmax}}
+\def\argmin{\mathop{\rm argmin}}
+
+\newcommand{\txtcomment}[1]{\textit{\textbf{Comment}: #1}}
+ 
+%\renewcommand{\Re}{\mathbb{R}}
+%\newcommand*{\seq}[3]{\mathbf{#1}_{#2}^{#3}} 
+\newcommand*{\seq}[3]{\mathbf{#1}_{#2:#3}} 
+\newcommand{\hmm}{\noun{hmm}}
+\newcommand{\pcfg}{\noun{pcfg}}
+\newcommand{\scfg}{\noun{SCFG}}
+\newcommand{\EM}{\noun{em}}
+\newcommand{\lang}{\mathcal{L}}
+\newcommand{\params}{\theta}
+\newcommand{\gram}{\mathcal{G}}
+\newcommand{\data}{\mathcal{D}}
+%\newcommand{\string}{\omega}
+\newcommand{\word}{\omega}
+\newcommand{\vocab}{\mathcal{V}}
+\newcommand{\allwords}{\mathcal{V}^*}
+\newcommand{\KL}[2]{KL \left({#1} \Vert {#2}\right)}
+\newcommand{\ent}[1]{\mathcal{H}\left({#1}\right)}
+\newcommand{\CE}[2]{CE \left({#1} \Vert {#2}\right)}
+\newcommand{\MI}[2]{MI \left({#1} \Vert {#2}\right)}
+\newcommand{\expect}[1]{\langle #1\rangle}
+\newcommand{\bow}{bag-of-words\ }
+\newcommand{\Params}{\boldsymbol{\theta}}
+
+\newcommand{\model}{\mathcal{M}}
+
+\newcommand{\prt}[2]{\tilde{\mathbf{x}}^{[#1]}_{#2}} % a particle
+\newcommand{\stk}[1]{\mathbf{z}_{#1}}
+\newcommand{\st}[1]{\mathbf{x}_{#1}} % a state
+\newcommand{\sts}[1]{\tilde{\mathbf{x}}_{#1}} % a state
+\newcommand{\ot}[1]{\mathbf{y}_{#1}} % a output datum
+\newcommand{\ots}[1]{\tilde{\mathbf{y}}_{#1}} % a output datum
+
+\newcommand{\qprob}[2]{\mathrm{q}_{#1}\!\left( #2 \right)}
+\newcommand{\gauss}[2]{\mathcal{N}\!\left( #1,#2 \right)}
+\newcommand{\LL}[1]{\mathcal{L}(#1)}
+%\newcommand{\qed}{\nobreak \ifvmode \relax \else
+%      \ifdim\lastskip<1.5em \hskip-\lastskip
+%      \hskip1.5em plus0em minus0.5em \fi \nobreak
+%      \vrule height0.75em width0.5em depth0.25em\fi}
+
